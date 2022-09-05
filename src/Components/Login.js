@@ -64,7 +64,10 @@ const Login = () => {
         <Form.Item
           className='text-center'
         >
-          <Button type="primary" htmlType="submit" className='btn-md w-100 p-3 d-flex align-items-center justify-content-center'>
+          <Button onClick={()=>{
+            localStorage.setItem("navbar","login")
+            window.location.reload()
+          }} type="primary" htmlType="submit" className='btn-md w-100 p-3 d-flex align-items-center justify-content-center'>
             Submit
           </Button>
         </Form.Item>

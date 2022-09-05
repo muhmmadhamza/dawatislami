@@ -7,20 +7,27 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import SignUp from './Components/signup'
 import Login from './Components/Login'
 import NAVBAR from './Components/NavBar'
+import InputDropdown from './Components/InputDropDown';
+import DonnerDetials from './Components/Donerdetails/Index';
 function App() {
 
   return (
-    <Router>
+    
       <div className="App">
-        {/* <NAVBAR/> */}
-        <Routes>
-          <Route exact path="/" element={<Login />} />
-          <Route path="/sign-in" element={<Login />} />
-          <Route path="/sign-up" element={<SignUp />} />
-        </Routes>
+
+        {/* {
+          localStorage.getItem("navbar")==="login"&&<NAVBAR/>
+        }
+        {
+          (!(localStorage.getItem("navbar")==="login"))&&<Login/>
+
+        } */}
+
+      <InputDropdown  />
+      {/* <DonnerDetials/> */}
 
       </div>
-    </Router>
+  
   )
 }
 export default App
