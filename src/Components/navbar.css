@@ -1,37 +1,45 @@
-
-
-
 .container {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color:darkblue;
+  background-color: darkblue;
   justify-content: space-between;
   max-width: 100% !important;
   align-items: center;
   height: 3.5rem;
 }
-.logo{
-    width: 157px !important;
-
-
+.logo {
+  width: 157px !important;
 }
-
-.log__img{
-width: 157px;
-color: white !important;
+.dropdownlist {
+  background-color: darkblue;
+  padding: 0.5rem;
+  color: white;
+  font-size: 20px;
+}
+.listitem {
+  color: white;
+  font-size: 22px;
+}
+.menu-list {
+  color: white;
+  font-size: 16px;
+  line-height: 1.4rem;
+}
+.log__img {
+  width: 157px;
+  color: white !important;
 }
 .dropdown {
   font-size: 16px;
   color: aliceblue;
 }
-.menu_item_list{
-    color: white;
-    font-size: 23px;
-
+.menu_item_list {
+  color: white;
+  font-size: 23px;
 }
-.menu_item{
+.menu_item {
   font-size: 20px;
   color: azure;
   align-items: center;
-} 
+}

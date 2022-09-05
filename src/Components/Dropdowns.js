@@ -12,5 +12,16 @@ function Dropdowns() {
     </DropdownButton>
   );
 }
-
 export default Dropdowns;
+
+// function Dropdownslist(){
+//   return(
+//     <DropdownButton id="dropdown-basic-button" title="Master Data" className='main-container'>
+//     <Dropdown.Item href="#/action-1">Add User</Dropdown.Item>
+//     <Dropdown.Item href="#/action-2">Add donner</Dropdown.Item>
+//     <Dropdown.Item href="#/action-3">Genertae Batch Number</Dropdown.Item>
+//     <Dropdown.Item href="#/action-2">Receipt Log</Dropdown.Item>
+//   </DropdownButton>
+//   )
+// }
+// export default Dropdownslist;

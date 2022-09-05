@@ -1,0 +1,165 @@
+.containte {
+  margin: 0 auto;
+  width: 27rem;
+  /* border-radius: 4px; */
+  background-color: rgba(0, 128, 34, 0.967);
+
+  margin-top: 10rem;
+  height: 3rem;
+  padding-top: 0.7rem;
+}
+.dontionate-info {
+  color: white;
+  font-size: 16px !important;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+p {
+  margin-bottom: 0px !important;
+}
+
+.wrapper-container {
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
+  padding-top: 3rem;
+  height: 32rem;
+  text-align: center;
+}
+
+.doner-detials {
+  width: 100%;
+}
+.main-continer {
+  background-color: green;
+}
+.type-header {
+  padding-top: 1.5rem;
+}
+.text-box {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+  background-color: rgba(220, 220, 220, 0.732);
+  padding-top: 2rem;
+}
+.text-head {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+  background-color: transparent;
+}
+.text-heade-one{
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+  padding-top: 5%;
+}
+.text-head-to{
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  padding-top: 5%;
+}
+.text-header-three{
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  padding-top: 5%;
+}
+.text-header-four{
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+  padding-top: 5%;
+}
+.text-headers{
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    width: 20rem;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    padding-top: 2.5rem;
+
+}
+.button-group{
+    display: flex;
+    margin-top: 0px;
+}
+.btn-danger{
+    background-color: green;
+    color: white;
+    width: 20rem;
+    border: 0px;
+    height: 2rem;
+}
+.line{
+    color: white;
+}
+.btn-warnings{
+    background-color: green;
+    color: white;
+    width: 20rem;
+    border: 0px;
+    height: 2rem;
+}
+.total-amount{
+    color: rgba(0, 128, 0, 0.814);
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+.text-header {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+
+  background-color: transparent;
+}
+
+.text-header1 {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+
+  background-color: transparent;
+}
+.st-dropdown {
+  padding-top: 8%;
+}
+.nd-dropdown {
+  padding-top: 8%;
+}
+.third-dropdown {
+  padding-top: 8%;
+}
+.text-header2 {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  width: 20rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+.fourth-dropdown {
+  padding-top: 8%;
+}
